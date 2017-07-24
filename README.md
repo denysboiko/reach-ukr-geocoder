@@ -1,4 +1,4 @@
-**Yandex Geocoder**
+# Yandex Geocoder
 
 **`geocoder.py`** uses 
 Yandex Geocoding API (https://tech.yandex.com/maps/doc/geocoder/desc/concepts/About-docpage/) to retrieve geocoordinates on individual address level.
