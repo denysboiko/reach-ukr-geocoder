@@ -68,7 +68,7 @@ def fetchCoordinates(source_file, fields, output_file):
 
 
 fetchCoordinates(
-    'input\example_input_data.txt', #
+    'input\example_input_data.txt',
     ['Address_updated', 'Address_street', 'Address_city'],
     'output\example_output_data.csv'
 )

@@ -6,7 +6,7 @@ Yandex Geocoding API (https://tech.yandex.com/maps/doc/geocoder/desc/concepts/Ab
 
 In the `fetchCoordinates` function at the end of the script you need to specify three parameters:
 
-**`source_file`** - path to TSV-file with the unprocessed list of addresses stored (encoded in UTF-8)
+**`source_file`** - path to TSV-file with unprocessed list of addresses (encoded in UTF-8)
 
 **`fields`** - array of fieldnames which should contain `individual_address`, `street_address`, `settlement_address`
 
