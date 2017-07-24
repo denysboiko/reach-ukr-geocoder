@@ -16,7 +16,7 @@ def fetchCoordinates(source_file, fields, output_file):
     total = len(input)
     counter = 1
 
-    for row in input[:5]:
+    for row in input:
 
         column = fields[0]
 
@@ -68,9 +68,9 @@ def fetchCoordinates(source_file, fields, output_file):
 
 
 fetchCoordinates(
-    'input\Popasnianskyi_Raion_woPopasna_Damage_data.txt', #
+    'input\example_input_data.txt', #
     ['Address_updated', 'Address_street', 'Address_city'],
-    'output\Popasnianskyi_Raion_woPopasna_Damage_data_geocoded.csv'
+    'output\example_output_data.csv'
 )
 
 
